@@ -1,0 +1,48 @@
+{
+    "python.linting.pylintArgs": [
+        "--rcfile=/home/xtwang/.pylintrc"
+    ],
+    "python.pythonPath": "/home/xtwang/anaconda3/envs/pt1/bin/python",
+    "files.trimTrailingWhitespace": true,
+    "editor.rulers": [
+        80,
+        100
+    ],
+    "python.formatting.provider": "yapf",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": false,
+    "python.formatting.yapfArgs": [
+        "--style",
+        "{based_on_style: pep8, COLUMN_LIMIT: 100}"
+    ],
+    "workbench.colorTheme": "Default Dark+",
+    "editor.renderWhitespace": "all",
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 100,
+    "python.linting.enabled": true,
+    "files.associations": {
+        "*.json": "jsonc"
+    },
+    "files.watcherExclude": {
+        "**/experiments/**": true,
+        "**/results/**": true
+    },
+    "jupyter.appendResults": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "colorize.ignore_search_variables_info": true,
+    "window.zoomLevel": 0,
+    "cSpell.userWords": [
+        "auth",
+        "config",
+        "openvpn",
+        "pass",
+        "sudo",
+        "user"
+    ],
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.minimap.enabled": true,
+    "editor.renderControlCharacters": true,
+    "breadcrumbs.enabled": true,
+    "python.jediEnabled": false,
+    "workbench.sideBar.location": "left"
+}
