@@ -44,5 +44,6 @@
     "editor.renderControlCharacters": true,
     "breadcrumbs.enabled": true,
     "python.jediEnabled": false,
-    "workbench.sideBar.location": "left"
+    "workbench.sideBar.location": "left",
+    "telemetry.enableTelemetry": false
 }
